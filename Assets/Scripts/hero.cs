@@ -52,6 +52,7 @@ public class hero : MonoBehaviour
             }
         }
     }
+    // some changes
     void Start()
     {
         
