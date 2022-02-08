@@ -62,3 +62,14 @@ The following packages were updated:
   com.unity.ide.visualstudio from version 2.0.9 to 2.0.12
   com.unity.ide.vscode from version 1.2.3 to 1.2.4
   com.unity.test-framework from version 1.1.27 to 1.1.29
+
+=== Wed Feb  9 01:27:51 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ads@3.7.5
+  com.unity.analytics@3.6.12
+  com.unity.purchasing@4.1.2
+  com.unity.xr.legacyinputhelpers@2.1.8
