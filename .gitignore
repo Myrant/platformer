@@ -49,7 +49,7 @@
 
 # Visual Studio cache directory
 .vs/
-*.log
+
 # Gradle cache directory
 .gradle/
 
