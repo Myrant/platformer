@@ -15,7 +15,6 @@ public class hero : MonoBehaviour
 
     private Controls inputs;
     private List<ContactPoint2D> con = new List<ContactPoint2D>();
-    // Start is called before the first frame update
 
     private Vector2 movement;
 
@@ -47,8 +46,7 @@ public class hero : MonoBehaviour
             Debug.DrawLine(con[i].point, con[i].point + con[i].normal, Color.white);
             if (Vector2.Dot(con[i].normal, Vector2.up) > minGroundAngle)
             {
-                isGrounded = true;
-                
+                isGrounded = true;                
             }
         }
     }
