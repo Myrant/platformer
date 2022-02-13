@@ -4,7 +4,7 @@ public class PlayerInAirState : PlayerBaseState
 {
     public override void EnterState(PlayerStateManager player)
     {
-        player.SetAnimation();
+        player.SetAnimation(1);
     }
 
     public override void UpdateState(PlayerStateManager player)

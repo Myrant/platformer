@@ -5,7 +5,7 @@ public class PlayerOnGroundState : PlayerBaseState
 {
     public override void EnterState(PlayerStateManager player)
     {
-        player.SetAnimation();
+        player.SetAnimation(0);
     }
 
     public override void UpdateState(PlayerStateManager player)

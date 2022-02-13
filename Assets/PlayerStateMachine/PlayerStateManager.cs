@@ -57,16 +57,9 @@ public class PlayerStateManager : MonoBehaviour
 
 
     ////// methods
-    public void SetAnimation()
-    {
-        if(currentState == OnGroundState)
-        {
-            animator.SetInteger("state", 0);
-        }
-        if(currentState == InAirState)
-        {
-            animator.SetInteger("state", 1);
-        }
+    public void SetAnimation(int value)
+    {       
+        animator.SetInteger("state", value);       
     }
     public bool IsGrounded()
     {
